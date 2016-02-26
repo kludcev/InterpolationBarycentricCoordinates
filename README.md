@@ -19,6 +19,18 @@ If so, => steps 4 and 5. If not – usage of this method is not appropriate.
 5)	Using barycentric coordinates obtained on the previous step, we calculate mass of the point P. 
 
 
+Example:
+
+pointP = { X = 3, Y = 3, Z = 3, Value = 0 }; 
+
+pointA = { X = 1, Y = 1, Z = 1, Value = 10 };
+
+pointB = { X = 3, Y = 3, Z = 10, Value = 45 };
+
+pointC = { X = 3, Y = 6, Z = 1, Value = 30 };
+
+pointD = { X = 6, Y = 1, Z = 1, Value = 22 };
+
 Result: 
 
 Barycentric coordinates
@@ -31,4 +43,4 @@ For point C: 0.31
 
 For point D: 0.18
 
-FindPoint Characteristics: 26.24
+PointP value: 26.24
