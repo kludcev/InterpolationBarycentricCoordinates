@@ -1,11 +1,11 @@
-Interpolation by using barycentric coordinates c#.
+<b>Interpolation by using barycentric coordinates c#.</b>
 
 This project shows how to interpolate values defined at vertices across the tetrahedron in 3 – dimensional space. 
 Barycentric coordinates in 3d space are four numbers (λ1, λ2, λ3, λ4) corresponding to masses placed at the vertices of a reference tetrahedron ABCD. 
 These masses then determine a point P, which is the geometric centroid of the four masses and is identified with coordinates (λ1, λ2, λ3, λ4). 
 
 
-Interpolation algorithm looks this way:
+<b>Interpolation algorithm looks this way:</b>
 
 1)	Initialization of the point P, which is the geometric centroid we explore.
 
@@ -19,7 +19,7 @@ If so, => steps 4 and 5. If not – usage of this method is not appropriate.
 5)	Using barycentric coordinates obtained on the previous step, we calculate mass of the point P. 
 
 
-Example:
+<b>Example:</b>
 
 pointP = { X = 3, Y = 3, Z = 3, Value = 0 }; 
 
@@ -31,7 +31,7 @@ pointC = { X = 3, Y = 6, Z = 1, Value = 30 };
 
 pointD = { X = 6, Y = 1, Z = 1, Value = 22 };
 
-Result: 
+<b>Result:</b> 
 
 Barycentric coordinates
 
