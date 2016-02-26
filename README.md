@@ -11,7 +11,9 @@ Interpolation algorithm looks this way:
 
 2)	Initialization of 4 points, which are the vertices of tetrahedron ABCD. 
 
-3)	We check if the point P is inside the ABCD tetrahedron. If so, => steps 4 and 5. If not – usage of this method is not appropriate. 
+3)	We check if the point P is inside the ABCD tetrahedron. 
+If so, => steps 4 and 5. If not – usage of this method is not appropriate. 
+
 4)	The calculation of the barycentric coordinates.
 
 5)	Using barycentric coordinates obtained on the previous step, we calculate mass of the point P. 
