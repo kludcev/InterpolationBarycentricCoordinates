@@ -4,6 +4,7 @@ This project shows how to interpolate values defined at vertices across the tetr
 Barycentric coordinates in 3d space are four numbers (λ1, λ2, λ3, λ4) corresponding to masses placed at the vertices of a reference tetrahedron ABCD. 
 These masses then determine a point P, which is the geometric centroid of the four masses and is identified with coordinates (λ1, λ2, λ3, λ4). 
 
+
 Interpolation algorithm looks this way:
 1)	Initialization of the point P, which is the geometric centroid we explore.
 2)	Initialization of 4 points, which are the vertices of tetrahedron ABCD. 
